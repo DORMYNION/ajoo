@@ -1,0 +1,198 @@
+/* ---------------- Fonts  ------------------*/
+@font-face {
+ font-family: "light-lato";	
+ src: url('Lato-Light.ttf') format('truetype');
+}
+@font-face {
+ font-family: "bold-lato";	
+ src: url('Lato-Bold.ttf') format('truetype');
+}
+@font-face {
+ font-family: "bold-arvo";	
+ src: url('Arvo-Bold.ttf') format('truetype');
+}
+@font-face {
+ font-family: "arvo";	
+ src: url('Arvo-Regular.ttf') format('truetype');
+}
+@font-face {
+ font-family: "light-lobster";	
+ src: url('LobsterTwo-Regular.ttf') format('truetype');
+}
+@font-face {
+ font-family: "light-pacifico";	
+ src: url('Pacifico-Regular.ttf') format('truetype');
+}
+@font-face {
+ font-family: "brush";	
+ src: url('Brush%20Script.otf') format('truetype');
+}
+@font-face {
+ font-family: "light-pt";	
+ src: url('PT_Sans-Web-Regular.ttf') format('truetype');
+}
+@font-face {
+ font-family: "bold-pt";	
+ src: url('PT_Sans-Web-Bold.ttf') format('truetype');
+}
+@font-face {
+ font-family: "bree";	
+ src: url('BreeSerif-Regular.ttf') format('truetype');
+}
+@font-face {
+ font-family: "crete";	
+ src: url('CreteRound-Regular.ttf') format('truetype');
+}
+@font-face {
+ font-family: "segeo";	
+ src: url('segoe.ttf') format('truetype');
+}
+@font-face {
+ font-family: "bold-segeo";	
+ src: url('segoe-bold.ttf') format('truetype');
+}
+@font-face {
+ font-family: "bold-amatic";	
+ src: url('AmaticSC-Bold.ttf') format('truetype');
+}
+@font-face {
+ font-family: "amatic";	
+ src: url('AmaticSC-Regular.ttf') format('truetype');
+}
+@font-face {
+ font-family: "bold-sans";	
+ src: url('SourceSansPro-Bold.ttf') format('truetype');
+}
+@font-face {
+ font-family: "light-sans";	
+ src: url('SourceSansPro-Light.ttf') format('truetype');
+}
+@font-face {
+ font-family: "sans";	
+ src: url('SourceSansPro-Regular.ttf') format('truetype');
+}
+
+
+/*:::::::::::::::::::::::::::::::::::::::
+:::::::FADE IN LEFT ANIMATION::::::::::::
+:::::::::::::::::::::::::::::::::::::::*/
+.fadeInLeft {
+ -webkit-animation-duration: .7s;
+ animation-duration: .7s;
+ -webkit-animation-fill-mode: both;
+ animation-fill-mode: both;
+ -webkit-animation-name: fadeInLeft;
+ animation-name: fadeInLeft;
+}
+ 
+@-webkit-keyframes fadeInLeft {
+ 0%{
+	opacity: 0;
+	-webkit-transform: translateX(-20px);
+ }
+ 100%{
+	opacity: 1;
+	-webkit-transform: translateX(0);
+ }
+}
+ 
+@keyframes fadeInLeft {
+ 0%{
+	opacity: 0;
+	transform: translateX(-20px);
+ }
+ 100%{
+	opacity: 1;
+	transform: translateX(0);
+ }
+}
+
+/*:::::::::::::::::::::::::::::::::::::::
+::::::::::::FADE IN ANIMATION::::::::::::
+:::::::::::::::::::::::::::::::::::::::*/
+.fadeIn {
+ -webkit-animation-duration: 1s;
+ animation-duration: 1s;
+ -webkit-animation-fill-mode: both;
+ animation-fill-mode: both;
+ -webkit-animation-name: fadeIn;
+ animation-name: fadeIn;
+}
+ 
+@-webkit-keyframes fadeIn {
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+}
+ 
+@keyframes fadeIn {
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+} 
+
+/*:::::::::::::::::::::::::::::::::::::::
+::::::::FADE IN RIGHT ANIMATION::::::::::
+:::::::::::::::::::::::::::::::::::::::*/    
+.fadeInRight {
+ -webkit-animation-duration: .5s;
+ animation-duration: .5s;
+ -webkit-animation-fill-mode: both;
+ animation-fill-mode: both;
+ -webkit-animation-name: fadeInRight;
+ animation-name: fadeInRight;
+}
+
+@-webkit-keyframes fadeInRight {
+ 0% {
+	opacity: 0;
+	-webkit-transform: translateX(20px);
+ }
+ 100% {
+	opacity: 1;
+	-webkit-transform: translateX(0);
+ }
+}
+ 
+@keyframes fadeInRight {
+ 0% {
+	opacity: 0;
+	transform: translateX(20px);
+ }
+ 100% {
+	opacity: 1;
+	transform: translateX(0);
+ }
+}
+
+/*:::::::::::::::::::::::::::::::::::::::
+:::::::::FADE IN DOWN ANIMATION::::::::::
+:::::::::::::::::::::::::::::::::::::::*/ 
+.fadeInDown {
+ -webkit-animation-duration: 1s;
+ animation-duration: 1s;
+ -webkit-animation-fill-mode: both;
+ animation-fill-mode: both;
+ -webkit-animation-name: fadeInDown;
+ animation-name: fadeInDown;
+}
+ 
+@-webkit-keyframes fadeInDown {
+0% {
+   opacity: 0;
+   -webkit-transform: translateY(-50px);
+}
+100% {
+   opacity: 1;
+   -webkit-transform: translateY(0);
+}
+}
+
+@keyframes fadeInDown {
+0% {
+   opacity: 0;
+   transform: translateY(-50px);
+}
+100% {
+   opacity: 1;
+   transform: translateY(0);
+}
+}
