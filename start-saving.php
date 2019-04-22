@@ -27,29 +27,31 @@
   </div>
 </div><!-- /.green-banner -->
 
+
 <div class="container" style="margin:50px 30px">
   <div class="row">
     <div class="col-md-12">
-          <form name="submit-to-google-sheet">
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLSfI61JBb4gFAi9DDjeI-1HGHVU3EU5gwoEPSwMLKgxl4hT5FA/formResponse" target="_self" method="POST" >
+          <form name="submit-to-google-sheet" >
             <div class="col-md-6">
               <div class="form-group">
                 <label for="name_group">Name of Group</label>
-                <input type="text" name="name_group" id="name_group" class="form-control">
+                <input type="text" name="entry.820864291" id="name_group" class="form-control">
               </div>
 
               <div class="form-group">
                 <label for="name_sponsor">Name of Sponsor</label>
-                <input type="text" name="name_sponsor" id="name_sponsor" class="form-control">
+                <input type="text" name="entry.324597999" id="name_sponsor" class="form-control">
               </div>
 
               <div class="form-group">
                 <label for="tel_sponsor">Tel of Sponsor</label>
-                <input type="text" name="tel_sponsor" id="tel_sponsor" class="form-control">
+                <input type="text" name="entry.641095749" id="tel_sponsor" class="form-control">
               </div>
 
               <div class="form-group">
                 <label for="email_sponsor">Email of Sponsor</label>
-                <input type="text" name="email_sponsor" id="email_sponsor" class="form-control">
+                <input type="text" name="entry.556195509" id="email_sponsor" class="form-control">
               </div>
 
               <div class="form-group">
@@ -61,44 +63,110 @@
               <div class="">
                 <div class="form-group col-md-6">
                   <label for="input_array_name[]">1. Name</label>
-                  <input id="input_name_1" type="text" name="input_array_name[]" class="form-control">
+                  <input id="input_name_1" type="text" name="entry.575441733" class="form-control">
                 </div>
                 <div class="form-group col-md-5">
                   <label for="input_array_tel">1. Tel</label>
-                  <input id="input_tel_1" type="text" name="input_array_tel[]" class="form-control">
+                  <input id="input_tel_1" type="text" name="entry.1776613880" class="form-control">
                 </div>
               </div>
 
               <div class="">
                 <div class="form-group col-md-6">
                   <label for="input_array_name[]">2. Name</label>
-                  <input id="input_name_2" type="text" name="input_array_name[]" class="form-control">
+                  <input id="input_name_2" type="text" name="entry.1091207764" class="form-control">
                 </div>
                 <div class="form-group col-md-5">
                   <label for="input_array_tel[]">2. Tel</label>
-                  <input id="input_tel_2" type="text" name="input_array_tel[]" class="form-control">
+                  <input id="input_tel_2" type="text" name="entry.542482123" class="form-control">
                 </div>
               </div>
 
               <div class="">
                 <div class="form-group col-md-6">
                   <label for="input_array_name[]">3. Name</label>
-                  <input id="input_name_3" type="text" name="input_array_name[]" class="form-control">
+                  <input id="input_name_3" type="text" name="entry.1449191381" class="form-control">
                 </div>
                 <div class="form-group col-md-5">
                   <label for="input_array_tel[]">3. Tel</label>
-                  <input id="input_tel_3" type="text" name="input_array_tel[]" class="form-control">
+                  <input id="input_tel_3" type="text" name="entry.1528372554" class="form-control">
                 </div>
               </div>
 
               <div class="wrapper">
                 <div class="form-group col-md-6">
                   <label for="input_array_name[]">4. Name</label>
-                  <input id="input_name_4" type="text" name="input_array_name[]" class="form-control">
+                  <input id="input_name_4" type="text" name="entry.1509428653" class="form-control">
                 </div>
                 <div class="form-group col-md-5">
                   <label for="input_array_tel[]">4. Tel</label>
-                  <input id="input_tel_4" type="text" name="input_array_tel[]" class="form-control">
+                  <input id="input_tel_4" type="text" name="entry.1858287559" class="form-control">
+                </div>
+              </div>
+
+              <div class="">
+                <div class="form-group col-md-6">
+                  <label for="input_array_name[]">5. Name</label>
+                  <input id="input_name_5" type="text" name="entry.601721471" class="form-control">
+                </div>
+                <div class="form-group col-md-5">
+                  <label for="input_array_tel[]">5. Tel</label>
+                  <input id="input_tel_5" type="text" name="entry.603859513" class="form-control">
+                </div>
+              </div>
+
+              <div class="">
+                <div class="form-group col-md-6">
+                  <label for="input_array_name[]">6. Name</label>
+                  <input id="input_name_6" type="text" name="entry.1526121894" class="form-control">
+                </div>
+                <div class="form-group col-md-5">
+                  <label for="input_array_tel[]">6. Tel</label>
+                  <input id="input_tel_6" type="text" name="entry.883090157" class="form-control">
+                </div>
+              </div>
+
+              <div class="">
+                <div class="form-group col-md-6">
+                  <label for="input_array_name[]">7. Name</label>
+                  <input id="input_name_7" type="text" name="entry.1872576004" class="form-control">
+                </div>
+                <div class="form-group col-md-5">
+                  <label for="input_array_tel[]">7. Tel</label>
+                  <input id="input_tel_7" type="text" name="entry.1799586601" class="form-control">
+                </div>
+              </div>
+
+              <div class="">
+                <div class="form-group col-md-6">
+                  <label for="input_array_name[]">8. Name</label>
+                  <input id="input_name_8" type="text" name="entry.1411405431" class="form-control">
+                </div>
+                <div class="form-group col-md-5">
+                  <label for="input_array_tel[]">8. Tel</label>
+                  <input id="input_tel_8" type="text" name="entry.34341439" class="form-control">
+                </div>
+              </div>
+
+              <div class="">
+                <div class="form-group col-md-6">
+                  <label for="input_array_name[]">9. Name</label>
+                  <input id="input_name_9" type="text" name="entry.1854349596" class="form-control">
+                </div>
+                <div class="form-group col-md-5">
+                  <label for="input_array_tel[]">9. Tel</label>
+                  <input id="input_tel_9" type="text" name="entry.1014323394" class="form-control">
+                </div>
+              </div>
+
+              <div class="">
+                <div class="form-group col-md-6">
+                  <label for="input_array_name[]">10. Name</label>
+                  <input id="input_name_10" type="text" name="entry.470283946" class="form-control">
+                </div>
+                <div class="form-group col-md-5">
+                  <label for="input_array_tel[]">10. Tel</label>
+                  <input id="input_tel_10" type="text" name="entry.1943099567" class="form-control">
                 </div>
               </div>
 
