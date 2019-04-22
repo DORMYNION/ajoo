@@ -37,8 +37,7 @@
 
         <h1>How does it work ?</h1>
 
-        <p>The Ajoo platform is a portal for people willing  to come together to create and launch their Rotational Group Savings Scheme. Once a group of individuals decide to come together to form a rotational group savings scheme, the promoters will register the group on the Ajoo Platform, a group account will be created on the platform and a WhatsApp group will for the newly created group. A WhatsApp URL link will be generated for same. This link is then shared by the promoters of the group to the participants to enable them to join the group on WhatsApp.
-          .</b></p>
+        <p>The Ajoo platform is a portal for people willing to come together to create and launch their Rotational Group Savings Scheme. Once a group of individuals decide to come together to form a rotational group savings scheme, the promoters will register the group on the Ajoo Platform, a group account will be created on the platform and a WhatsApp group will be created , a WhatsApp URL link will be generated for same. This link is then shared by the promoters of the group to the participants to enable them to join the group on WhatsApp.</p>
 
 
           <p>The platform is free for all participants, it serves as a vehicle for group members to interact and to allow other interested participants to join in.</p>

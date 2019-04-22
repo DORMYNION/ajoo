@@ -14,23 +14,13 @@
 
         <!-- Stylesheets  -->
   <style type="text/css" media="all">
-    @import url("asset/css/jquery.ui.accordion.min.css");
-    @import url("asset/css/views.css");
-    @import url("asset/css/ckeditor.css");
     @import url("asset/css/animate.min.css");
+    @import url("asset/css/customs.css");
     @import url("asset/css/main.css");
     @import url("asset/css/app.css");
-    @import url("asset/css/customs.css");
   </style>
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 
   <script type="text/javascript" src="asset/js/modernizr.js"></script>
-  <script type="text/javascript" src="asset/js/jquery.once.js"></script>
-  <script type="text/javascript" src="asset/js/jquery.ui.core.min.js"></script>
-  <script type="text/javascript" src="asset/js/jquery.ui.widget.min.js"></script>
-  <script type="text/javascript" src="asset/js/jquery.ui.accordion.min.js"></script>
-  <script type="text/javascript" src="asset/js/appmeasurement.js"></script>
-  <script type="text/javascript" src="asset/js/main.js"></script>
 </head>
 	<body>
 		<!--[if lt IE 9]>
@@ -57,7 +47,8 @@
                 <div id="block-block-16" class="block block-block">
                   <div class="content">
                     <div>
-                      <button type="button" class="btn start-saving" data-toggle="modal" data-target="#startSavingModal">Start Saving</button>
+                      <!-- <button type="button" class="btn start-saving" data-toggle="modal" data-target="#startSavingModal">Start Saving</button> -->
+                      <a class="start-saving" href="start-saving.php">Start Saving</a>
                       <!-- <a class="start-saving" href="javascript:void(0)" onClick="clickMe('clickSaving','savingCont')" id="clickSaving">Start Saving</a>
                       <a class="login" href="javascript:void(0)" onClick="clickMe('clickLogin','loginCont')" id="clickLogin"> Login</a> -->
                     </div>
@@ -77,114 +68,6 @@
         </div> <!-- /.container -->
       </header> <!-- /.navbar -->
 
-    <!-- Start Saving
-      ================================================== -->
-      <div class="modal fade" id="startSavingModal" tabindex="-1" role="dialog" aria-labelledby="startSavingModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="startSavingModalLabel">Start Saving</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <form name="submit-to-google-sheet">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="name_group">Name of Group</label>
-                    <input type="text" name="name_group" id="name_group" class="form-control">
-                  </div>
-
-                  <div class="form-group">
-                    <label for="name_sponsor">Name of Sponsor</label>
-                    <input type="text" name="name_sponsor" id="name_sponsor" class="form-control">
-                  </div>
-
-                  <div class="form-group">
-                    <label for="tel_sponsor">Tel of Sponsor</label>
-                    <input type="text" name="tel_sponsor" id="tel_sponsor" class="form-control">
-                  </div>
-
-                  <div class="form-group">
-                    <label for="email_sponsor">Email of Sponsor</label>
-                    <input type="text" name="email_sponsor" id="email_sponsor" class="form-control">
-                  </div>
-
-                  <div class="form-group">
-                    <button type="submit" name="submit" class="btn btn-primary">Start Saving</button>
-                  </div>
-                </div>
-
-                <div class="col-md-6">
-                  <div class="">
-                    <div class="form-group col-md-6">
-                      <label for="input_array_name[]">1. Name</label>
-                      <input id="input_name_1" type="text" name="input_array_name[]" class="form-control">
-                    </div>
-                    <div class="form-group col-md-5">
-                      <label for="input_array_tel">1. Tel</label>
-                      <input id="input_tel_1" type="text" name="input_array_tel[]" class="form-control">
-                    </div>
-                  </div>
-
-                  <div class="">
-                    <div class="form-group col-md-6">
-                      <label for="input_array_name[]">2. Name</label>
-                      <input id="input_name_2" type="text" name="input_array_name[]" class="form-control">
-                    </div>
-                    <div class="form-group col-md-5">
-                      <label for="input_array_tel[]">2. Tel</label>
-                      <input id="input_tel_2" type="text" name="input_array_tel[]" class="form-control">
-                    </div>
-                  </div>
-
-                  <div class="">
-                    <div class="form-group col-md-6">
-                      <label for="input_array_name[]">3. Name</label>
-                      <input id="input_name_3" type="text" name="input_array_name[]" class="form-control">
-                    </div>
-                    <div class="form-group col-md-5">
-                      <label for="input_array_tel[]">3. Tel</label>
-                      <input id="input_tel_3" type="text" name="input_array_tel[]" class="form-control">
-                    </div>
-                  </div>
-
-                  <div class="wrapper">
-                    <div class="form-group col-md-6">
-                      <label for="input_array_name[]">4. Name</label>
-                      <input id="input_name_4" type="text" name="input_array_name[]" class="form-control">
-                    </div>
-                    <div class="form-group col-md-5">
-                      <label for="input_array_tel[]">4. Tel</label>
-                      <input id="input_tel_4" type="text" name="input_array_tel[]" class="form-control">
-                    </div>
-                  </div>
-
-                  <div class="col-12 form-inline">
-                    <small id="addHelpInline" class="text-muted ">
-                      Click Add to add more people.
-                    </small>
-                    <div class="form-group ml-auto" style="padding-bottom:30px;">
-                      <button type="button" name="add" class="btn btn-primary btn-large" id="add" aria-describedby="addHelpInline">Add Participant</button>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class="clearfix"></div>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    <!--. Start Saving Ends
-      ================================================== -->
 
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbxYmzO2NNsbWsuFEo9u4wMqTOHjnG8o1p5-GjZZWTVE8gICkeY/exec'
