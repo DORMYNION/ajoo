@@ -11,7 +11,7 @@
           <p>Free online Digital Platform that enables you and your close associates come together to create or join an existing Rotational Group Savings Scheme program.</p>
 
           <div class="row action clearfix">
-            <p class="col-md-10 col-sm-5 text-right"><a class="btn btn-lg btn-warning" href="#" role="button" target="_self">Start Saving</a></p>
+            <p class="col-md-10 col-sm-5 text-right"><a class="btn btn-lg btn-warning" href="start-saving.php" role="button" target="_self">Start Saving</a></p>
           </div>
         </div>
       </div>
