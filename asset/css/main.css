@@ -12089,3 +12089,210 @@ https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css
     .block-element {
         display: block;
     }
+
+
+    /*-------- 2.1 Wizard --------*/
+    #left_form {
+      text-align: center;
+    }
+    #left_form h2 {
+      font-size: 28px;
+      font-size: 1.75rem;
+      color: #0686D8;
+    }
+    @media (max-width: 767px) {
+      #left_form figure img {
+        height: 130px;
+        width: auto;
+      }
+    }
+
+    input#website {
+      display: none;
+    }
+
+    #wizard_container {
+      width: 600px;
+    }
+    @media (max-width: 767px) {
+      #wizard_container {
+        width: 100%;
+      }
+    }
+
+    h3.main_question {
+      margin: 0 0 20px 0;
+      padding: 0;
+      font-weight: 500;
+      font-size: 18px;
+      font-size: 1.125rem;
+    }
+    h3.main_question strong {
+      display: block;
+      color: #999;
+      margin-bottom: 5px;
+    }
+
+    /* Wizard Buttons*/
+    button.backward,
+    button.forward,
+    button.submit {
+      border: none;
+      color: #fff;
+      text-decoration: none;
+      transition: background .5s ease;
+      -moz-transition: background .5s ease;
+      -webkit-transition: background .5s ease;
+      -o-transition: background .5s ease;
+      display: inline-block;
+      cursor: pointer;
+      outline: none;
+      text-align: center;
+      background: #434bdf;
+      position: relative;
+      font-size: 14px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      border-radius: 3px;
+      line-height: 1;
+      padding: 12px 30px;
+    }
+
+    button.backward {
+      color: #777;
+      background: #e8e8e8;
+    }
+
+    button[disabled] {
+      display: none;
+    }
+
+    button.submit:before {
+      content: "\4e";
+      font-family: 'ElegantIcons';
+      position: absolute;
+      top: 8px;
+      right: 10px;
+      font-size: 18px;
+      font-size: 1.125rem;
+    }
+
+    .backward:hover,
+    .forward:hover {
+      background: #d80075;
+      color: #fff;
+    }
+
+    #top-wizard {
+      padding-bottom: 20px;
+    }
+
+    #middle-wizard {
+      min-height: 330px;
+    }
+    @media (max-width: 991px) {
+      #middle-wizard {
+        min-height: inherit;
+      }
+    }
+
+    #bottom-wizard {
+      text-align: right;
+      margin-top: 25px;
+    }
+
+    .ui-widget-content {
+      background-color: transparent;
+    }
+
+    .ui-widget-content a {
+      color: #222222;
+    }
+
+    .ui-widget-header {
+      background: #6C3;
+    }
+
+    .ui-widget-header a {
+      color: #222222;
+    }
+
+    .ui-progressbar {
+      height: 2px;
+      width: 100%;
+    }
+
+    .ui-progressbar .ui-progressbar-value {
+      height: 100%;
+      -webkit-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+    }
+
+    .summary ul {
+      margin: 0;
+      padding: 0;
+    }
+    .summary ul li {
+      margin: 0;
+      padding: 0;
+      border-bottom: 1px solid #ededed;
+      position: relative;
+      padding-left: 45px;
+      margin-bottom: 25px;
+    }
+    .summary ul li:last-child {
+      margin-bottom: 0;
+      border-bottom: none;
+    }
+    .summary ul li strong {
+      display: block;
+      line-height: 26px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      text-align: center;
+      border: 2px solid #ddd;
+    }
+    .summary ul li h5 {
+      padding-top: 6px;
+      font-size: 15px;
+      font-size: 0.9375rem;
+      font-weight: 500;
+      color: #0686D8;
+    }
+    .summary ul li ul {
+      margin: 20px 0 25px 0;
+      padding: 0;
+    }
+    .summary ul li ul li {
+      margin: 0;
+      padding: 0;
+      border-bottom: 0;
+    }
+    .summary label {
+      font-weight: 500;
+    }
+
+    .content-right {
+      padding: 60px;
+      height: 100%;
+      min-height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 991px) {
+      .content-right {
+        height: auto;
+        padding: 30px 15px;
+      }
+    }

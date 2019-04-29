@@ -59,11 +59,18 @@
 
     <!-- JavaScript
 ================================================== -->
+<script src="asset/js/jquery-3.2.1.min.js"></script>
+<script src="asset/js/popper.min.js"></script>
+<script src="asset/js/bootstrap.min.js"></script>
 
-<script type="text/javascript" src="asset/js/jquery.min.js"></script>
-<!-- <script type="text/javascript" src="asset/js/bootstrap.bundle.js"></script> -->
-<script type="text/javascript" src="asset/js/popper.min.js"></script>
-<script type="text/javascript" src="asset/js/appmeasurement.js"></script>
+<script src="asset/js/common_scripts.min.js"></script>
+<script src="asset/js/velocity.min.js"></script>
+<script src="asset/js/functions.js"></script>
+
+<!-- Wizard script -->
+<script src="asset/js/mail.js"></script>
+
+<!-- <script type="text/javascript" src="asset/js/appmeasurement.js"></script> -->
 <script type="text/javascript" src="asset/js/main.js"></script>
 </body>
 </html>
